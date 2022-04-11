@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>LINE Retail Society</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PW7HPDW');</script>
+  <!-- End Google Tag Manager -->
+  <link href="./img/favicom.ico" rel="icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href='css/ekachon.css' rel="stylesheet" type="text/css">
+  <link href='css/button.css' rel="stylesheet" type="text/css">
+  <link href='css/style.css' rel="stylesheet" type="text/css">
+  <link href='css/vdo.css' rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='css/w3.css' rel="stylesheet" type="text/css">
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css'>
+  <link rel='stylesheet' href='https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css'>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.12.0/sdk.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7HPDW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <div class="navbar1">
+    <center>
+      <div style="max-width:400px;">
+        <div class="iconlink" onClick="window.location='index.html';">
+          <div style="width:28px;"><img src="./img/playlist.png" style="width:22px;"></div>
+          <div style="font-size: 11px;">สื่อวิดีโอ</div>
+        </div>
+        <div class="iconlink" onClick="window.location='learning.html';">
+          <div style="width:28px;"><img src="./img/learning.png" style="width:22px;"></div>
+          <div style="font-size: 11px;">Learning</div>
+        </div>
+        <div class="iconlink" onClick="window.location='training.html';">
+          <div style="width:28px;"><img src="./img/training.png" style="width:22px;"></div>
+          <div style="font-size: 11px;">Training</div>
+        </div>
+        <div class="iconlink" onClick="window.location='search.html';" style="background-color: #002d63;">
+          <div style="width:28px;"><img src="./img/search.png" style="width:22px;"></div>
+          <div style="font-size: 11px;">ค้นหาสื่อ</div>
+        </div>
+      </div>
+    </center>
+  </div>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html" style="font-size: 13px;">Line Retail Society</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">สื่อวิดีโอ</a></li>
+          <li><a href="learning.html">Learning</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="search.html">ค้นหาสื่อ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <div style="margin-top:50px;background-color: #002d63;height: 190px;">
+      <div style="padding-top:10px; font-size: 18px; color:#fff;"></div>
+      <div style="padding:10px"><img src="./img/search_vdo.png" style="width:100%;max-width:360px;"></div>
+      <!--
+      <div style="font-size: 13px; color:#fff;">จะเป็นสื่อวิดีโอที่จะช่วยให้คุณ<br>ได้เรียนรู้และรู้จักลูกค้ามากยิ่งขึ้น</div>
+    -->
+    </div>
+  </div>
+
+  <section id="team" class="team section-bg">
+    <div class="container">
+      <div class="section-title">
+        <center>
+          <div class="h3div" style="color:#002d63;margin:30px auto 20px auto;">ค้นหาสื่อวิดีโอ/สื่อการสอน
+            <div style="font-weight: 400; color:#999; font-size: 12px;">เราอยากให้คุณได้ติดตามชมวิดีโอล่าสุดของเรา</div>
+          </div>
+          <div style="width:98%; margin:10px auto;">
+            <table id="ex-table" class="display" style="width:100%;font-size: 11px;color:#444444;">
+              <thead>
+                <tr>
+                  <th style="width:8%;text-align: center;">ประเภท</th>
+                  <th style="width:82%;">รายละเอียด</th>
+                  <th style="width:8%;text-align: center;">รายการ</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </center>
+      </div>
+    </div>
+  </section>
+  <div class="clr"></div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <div style="font-size:12px;font-weight: 600;">@<font color="green">LINE</font> <font color="#002d63">Retail</font> 
+    <font color="#0056ff">So</font><font color="#f68b1f">ciety</font></div>
+    <div class="clr" style="height: 40px;"></div>
+</footer>
+
+<script src='https://code.jquery.com/jquery-1.12.3.js'></script>
+<script src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
+<script src='https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js'></script>
+<script src='https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js'></script>
+<script src='https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js'></script>
+<script src='https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js'></script>
+<script src='https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js'></script>
+<script src='https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js'></script>
+
+
+<script src="./js/search.js"></script>
+
+
+</body>
+</html>
