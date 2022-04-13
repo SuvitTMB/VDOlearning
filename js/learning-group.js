@@ -32,7 +32,7 @@ function Connect_DB() {
   //LoadVDOGroup();
   //ShowVDOList();
 }
-
+ 
 
 function getParameterByName(name, url) {
   str = '';
