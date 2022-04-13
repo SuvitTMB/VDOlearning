@@ -132,8 +132,8 @@ function ShowVDOList() {
       i = i+1;
       str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" onclick="OpenVdo(\''+ doc.id +'\','+i+')">';
       str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
-      str += '<img src="'+doc.data().VDOimg+'" class="img-fluid" style="border-radius: 10px;"></div>';
-      str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().VDOname+'</div>';
+      str += '<img src="'+doc.data().VDOimg+'" class="img-fluid" style="border-radius: 10px;">';
+      str += '<div class="vdo-timer"><img src="./img/timer.png" width="15px"> '+doc.data().VDOtimer+'</div></div>';
       str += '<div class="boxvdo-line1">'+doc.data().VDOdetail+'</div>';
       str += '<div class="boxvdo-line2"><div class="boxvdo-icon1">';
       str += '<img src="./img/calendar.png" class="boxvdoimg"> <span>'+doc.data().VDOdate+'</span></div>';
