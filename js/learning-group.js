@@ -1,1 +1,212 @@
-var _0x5a129b=_0x4197;(function(_0x452299,_0x496813){var _0x3ca55b=_0x4197,_0x29f4b6=_0x452299();while(!![]){try{var _0x4fc88d=parseInt(_0x3ca55b(0x204))/0x1*(-parseInt(_0x3ca55b(0x23e))/0x2)+parseInt(_0x3ca55b(0x240))/0x3*(-parseInt(_0x3ca55b(0x237))/0x4)+-parseInt(_0x3ca55b(0x227))/0x5+parseInt(_0x3ca55b(0x247))/0x6+parseInt(_0x3ca55b(0x212))/0x7*(parseInt(_0x3ca55b(0x24b))/0x8)+-parseInt(_0x3ca55b(0x20e))/0x9+parseInt(_0x3ca55b(0x248))/0xa*(parseInt(_0x3ca55b(0x22a))/0xb);if(_0x4fc88d===_0x496813)break;else _0x29f4b6['push'](_0x29f4b6['shift']());}catch(_0x2c7e25){_0x29f4b6['push'](_0x29f4b6['shift']());}}}(_0x2c1b,0x984ef));var cleararray='',dbVDOTraining='',sVDOmain=0x0,sVDOgroup=0x0;$(document)[_0x5a129b(0x22c)](function(){var _0x3eed6c=_0x5a129b;sessionStorage[_0x3eed6c(0x246)]('EmpID')==null&&(location[_0x3eed6c(0x23b)]='index.html'),sMain=getParameterByName('gMain'),sGroup=getParameterByName(_0x3eed6c(0x222)),Connect_DB();});function Connect_DB(){var _0xf2925d=_0x5a129b,_0x671f2c={'apiKey':_0xf2925d(0x1fe),'authDomain':'retailproject-6f4fc.firebaseapp.com','projectId':_0xf2925d(0x22f),'databaseURL':_0xf2925d(0x214),'storageBucket':_0xf2925d(0x242),'messagingSenderId':'653667385625','appId':'1:653667385625:web:a5aed08500de80839f0588','measurementId':'G-9SKTRHHSW9'};firebase[_0xf2925d(0x1f4)](_0x671f2c),dbVDOGroup=firebase[_0xf2925d(0x21d)]()['collection'](_0xf2925d(0x245)),dbVDOTraining=firebase[_0xf2925d(0x21d)]()[_0xf2925d(0x20c)](_0xf2925d(0x208)),ShowVDOmain(),ShowVDOgroup();}function getParameterByName(_0x991d72,_0x44cf94){var _0x49e67e=_0x5a129b;str='';if(!_0x44cf94)_0x44cf94=window[_0x49e67e(0x223)][_0x49e67e(0x23b)];_0x991d72=_0x991d72['replace'](/[\[\]]/g,_0x49e67e(0x220));var _0x3ab990=new RegExp(_0x49e67e(0x229)+_0x991d72+_0x49e67e(0x235)),_0x1e3c16=_0x3ab990[_0x49e67e(0x1f8)](_0x44cf94);if(!_0x1e3c16)return null;if(!_0x1e3c16[0x2])return'';return decodeURIComponent(_0x1e3c16[0x2]['replace'](/\+/g,'\x20'));}function _0x2c1b(){var _0x3c45f3=['<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/ask.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>','desc','VDOTraining','VDOread','<img\x20src=\x22./img/video2.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>','documentId','collection','none','4856112tMpICz','QuestionSend','doc','html','4060YhSyDC','#ImgVDO','https://file-upload-6f4fc.firebaseio.com','VDOgroup','VDOquiz','</div></div></div></div>','VDOmain','#DisplayVDOgroup','VDOitem','<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x20boxvdo\x22\x20data-aos=\x22fade-left\x22\x20onclick=\x22OpenVdo(\x27','forEach','firestore','<img\x20src=\x22','<div\x20style=\x22margin-top:50px;background-color:\x20#002d63;height:\x20270px;\x20overflow:\x20hidden;\x22>','\x5c$&','</span></div>','gGroup','location','#DetailVDO','#SocialICON','ShowQuestion','757145aeNygh','<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/quizgame.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>เก็บคะแนน</span></div>','[?&]','707014xoMGMZ','getElementById','ready','VDOtimestamp','FieldPath','retailproject-6f4fc','orderBy','VDOname','VDOtimer','get','style','(=([^&#]*)|&|#|$)','#NameVDO','7736ySfpnh','\x22\x20class=\x22img-fluid\x22\x20style=\x22border-radius:\x2010px;\x22>','then','\x20อ่าน</span></div>','href','</span>\x20Clip</div>','</div></div>','11256mhIWyi','<div\x20class=\x22boxvdo-line2\x22><div\x20class=\x22boxvdo-icon1\x22>','1647gubzpT','\x20คำถาม</span></div>','retailproject-6f4fc.appspot.com','<div\x20class=\x22vdo-timer\x22><img\x20src=\x22./img/timer.png\x22\x20width=\x2215px\x22>\x20','VDOstatus','VDOTrainingGroup','getItem','3664632wVizPK','370JgNSSM',')\x22>','limit','16VAkNok','<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/reading.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>','<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/reading.png\x22\x20class=\x22boxvdoimg\x22>\x20<span\x20id=\x22ReadView-','</div>','initializeApp','\x22\x20style=\x22width:100%;\x20max-width:\x20500px;\x22></div>','VDOdetail','VDOimg','exec','<div\x20class=\x22boxvdo-border\x20member\x22><div\x20class=\x22boxvdo-img\x22>','<img\x20src=\x22./img/calendar.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>','<div\x20class=\x22boxvdo-header\x22>','update','VDOdate','AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE','id01','#DisplayVDOlist','VDOdisplay','where','VDOclick','109btXeGW','data'];_0x2c1b=function(){return _0x3c45f3;};return _0x2c1b();}var EidVDOGroup='',sCountView=0x0;function ShowVDOmain(){var _0x40d29e=_0x5a129b,_0x590844='',_0x155c24='';dbVDOGroup['where']('VDOmain','==',parseInt(sMain))[_0x40d29e(0x202)]('VDOgroup','==',parseInt(sGroup))[_0x40d29e(0x202)](_0x40d29e(0x201),'==',0x1)['limit'](0x1)['get']()[_0x40d29e(0x239)](_0x26df4a=>{_0x26df4a['forEach'](_0x59490a=>{var _0x466e5b=_0x4197;EidVDOGroup=_0x59490a['id'],sCountView=parseInt(_0x59490a[_0x466e5b(0x205)]()[_0x466e5b(0x203)])+0x1,_0x590844+=_0x466e5b(0x21f),_0x590844+=_0x466e5b(0x21e)+_0x59490a[_0x466e5b(0x205)]()['VDOimg']+_0x466e5b(0x1f5),$(_0x466e5b(0x236))[_0x466e5b(0x211)](_0x466e5b(0x1fb)+_0x59490a['data']()[_0x466e5b(0x231)]+_0x466e5b(0x1f3)),$(_0x466e5b(0x224))[_0x466e5b(0x211)]('<div\x20class=\x22boxvdo-line1\x22\x20style=\x22padding-top:10px;height:auto;\x22>'+_0x59490a[_0x466e5b(0x205)]()[_0x466e5b(0x1f6)]+_0x466e5b(0x1f3)),$(_0x466e5b(0x213))['html'](_0x590844),_0x155c24+=_0x466e5b(0x23f),_0x155c24+=_0x466e5b(0x20a)+_0x59490a[_0x466e5b(0x205)]()[_0x466e5b(0x21a)]+_0x466e5b(0x23c),_0x155c24+=_0x466e5b(0x24c)+sCountView+_0x466e5b(0x23a),_0x155c24+=_0x466e5b(0x23d),$(_0x466e5b(0x225))[_0x466e5b(0x211)](_0x155c24),SaveCountVDOGroup();});});}function SaveCountVDOGroup(){var _0x219d3a=_0x5a129b;EidVDOGroup!=''&&dbVDOGroup[_0x219d3a(0x210)](EidVDOGroup)[_0x219d3a(0x1fc)]({'VDOclick':parseInt(sCountView)});}function ShowVDOgroup(){var _0x4cb545=_0x5a129b,_0x1e8e6d=0x0,_0x59365a='';dbVDOTraining[_0x4cb545(0x202)](_0x4cb545(0x218),'==',parseInt(sMain))['where'](_0x4cb545(0x215),'==',parseInt(sGroup))[_0x4cb545(0x202)]('VDOstatus','==',0x0)['orderBy']('VDOrank',_0x4cb545(0x207))[_0x4cb545(0x233)]()[_0x4cb545(0x239)](_0x5c1be0=>{var _0x217e97=_0x4cb545;_0x5c1be0[_0x217e97(0x21c)](_0x162381=>{var _0x35f3d0=_0x217e97;_0x1e8e6d=_0x1e8e6d+0x1,str+=_0x35f3d0(0x21b)+_0x162381['id']+'\x27,'+_0x1e8e6d+_0x35f3d0(0x249),str+=_0x35f3d0(0x1f9),str+=_0x35f3d0(0x21e)+_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x1f7)]+'\x22\x20class=\x22img-fluid\x22\x20style=\x22border-radius:\x2010px;\x22>',str+=_0x35f3d0(0x243)+_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x232)]+_0x35f3d0(0x23d),str+='<div\x20class=\x22boxvdo-line1\x22>'+_0x162381[_0x35f3d0(0x205)]()['VDOdetail']+_0x35f3d0(0x1f3),str+=_0x35f3d0(0x23f),str+=_0x35f3d0(0x1fa)+_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x1fd)]+_0x35f3d0(0x221),str+=_0x35f3d0(0x1f2)+_0x1e8e6d+'\x22>'+_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x209)]+'\x20อ่าน</span></div>',_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x216)]==0x1&&(str+=_0x35f3d0(0x228)),_0x162381[_0x35f3d0(0x205)]()['ShowQuestion']==0x1&&(str+=_0x35f3d0(0x206)+_0x162381[_0x35f3d0(0x205)]()[_0x35f3d0(0x20f)]+_0x35f3d0(0x241)),str+=_0x35f3d0(0x217);}),$(_0x217e97(0x219))[_0x217e97(0x211)](str);});}function _0x4197(_0x51614b,_0x539223){var _0x2c1bf2=_0x2c1b();return _0x4197=function(_0x419746,_0xca176c){_0x419746=_0x419746-0x1f2;var _0x40edaa=_0x2c1bf2[_0x419746];return _0x40edaa;},_0x4197(_0x51614b,_0x539223);}function ShowVDOList(){var _0x26b3a5=_0x5a129b,_0x432d70=0x0,_0x26085d='';dbVDOTraining['where']('VDOmain','==',sVDOmain)[_0x26b3a5(0x202)](_0x26b3a5(0x244),'==',0x0)[_0x26b3a5(0x230)](_0x26b3a5(0x22d),_0x26b3a5(0x207))[_0x26b3a5(0x24a)](0xa)[_0x26b3a5(0x233)]()['then'](_0x226716=>{var _0x55d24c=_0x26b3a5;_0x226716[_0x55d24c(0x21c)](_0x328f3c=>{var _0x1024fe=_0x55d24c;_0x432d70=_0x432d70+0x1,_0x26085d+='<div\x20class=\x22col-lg-6\x20col-md-2\x20slide\x20text-center\x20boxvdo\x22\x20data-aos=\x22fade-left\x22\x20onclick=\x22OpenVdo(\x27'+_0x328f3c['id']+'\x27,'+_0x432d70+_0x1024fe(0x249),_0x26085d+='<div\x20class=\x22boxvdo-border\x20member\x22><div\x20class=\x22boxvdo-img\x22>',_0x26085d+=_0x1024fe(0x21e)+_0x328f3c[_0x1024fe(0x205)]()[_0x1024fe(0x1f7)]+_0x1024fe(0x238),_0x26085d+=_0x1024fe(0x243)+_0x328f3c['data']()[_0x1024fe(0x232)]+_0x1024fe(0x23d),_0x26085d+='<div\x20class=\x22boxvdo-line1\x22>'+_0x328f3c['data']()[_0x1024fe(0x1f6)]+_0x1024fe(0x1f3),_0x26085d+=_0x1024fe(0x23f),_0x26085d+=_0x1024fe(0x1fa)+_0x328f3c[_0x1024fe(0x205)]()[_0x1024fe(0x1fd)]+'</span></div>',_0x26085d+='<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/reading.png\x22\x20class=\x22boxvdoimg\x22>\x20<span\x20id=\x22ReadView-'+_0x432d70+'\x22>'+_0x328f3c[_0x1024fe(0x205)]()[_0x1024fe(0x209)]+_0x1024fe(0x23a),_0x328f3c[_0x1024fe(0x205)]()[_0x1024fe(0x216)]==0x1&&(_0x26085d+=_0x1024fe(0x228)),_0x328f3c['data']()[_0x1024fe(0x226)]==0x1&&(_0x26085d+='<div\x20class=\x22boxvdo-icon\x22><img\x20src=\x22./img/ask.png\x22\x20class=\x22boxvdoimg\x22>\x20<span>'+_0x328f3c[_0x1024fe(0x205)]()['QuestionSend']+_0x1024fe(0x241)),_0x26085d+=_0x1024fe(0x217);}),$(_0x55d24c(0x200))[_0x55d24c(0x211)](_0x26085d);});}function GotoVDOGroup(_0x38d148,_0x5cdc0a,_0x44ee08,_0x560d91){var _0x5d099d=_0x5a129b,_0x4c5094=0x0;dbVDOGroup[_0x5d099d(0x202)](firebase['firestore'][_0x5d099d(0x22e)][_0x5d099d(0x20b)](),'==',_0x38d148)[_0x5d099d(0x233)]()[_0x5d099d(0x239)](_0x1a1ddb=>{var _0x31f306=_0x5d099d;_0x1a1ddb['forEach'](_0x6f6a78=>{var _0x478569=_0x4197;_0x4c5094=parseInt(_0x6f6a78[_0x478569(0x205)]()[_0x478569(0x203)])+0x1,alert(_0x4c5094),dbVDOGroup[_0x478569(0x210)](_0x38d148)[_0x478569(0x1fc)]({'VDOclick':parseInt(_0x4c5094)});}),location[_0x31f306(0x23b)]='learning-group.html?gid='+_0x5cdc0a+'';});}function OpenVdo(_0x3b0e3b,_0x3ce5cd){location['href']='displayvdo.html?gid='+_0x3b0e3b+'';}function CloseAll(){var _0x53581e=_0x5a129b;document[_0x53581e(0x22b)](_0x53581e(0x1ff))[_0x53581e(0x234)]['display']=_0x53581e(0x20d);}
+var cleararray = "";
+var dbVDOTraining = "";
+var sVDOmain = 0;
+var sVDOgroup = 0;
+
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpID")==null) { location.href = "index.html"; }
+  sMain = getParameterByName('gMain');
+  sGroup = getParameterByName('gGroup');
+  //alert(sMain+"===="+sGroup);
+ 	Connect_DB();
+});
+
+
+function Connect_DB() {
+  var firebaseConfig = {
+    apiKey: "AIzaSyDfTJJ425U4OY0xac6jdhtSxDeuJ-OF-lE",
+    authDomain: "retailproject-6f4fc.firebaseapp.com",
+    projectId: "retailproject-6f4fc",
+    databaseURL: "https://file-upload-6f4fc.firebaseio.com",
+    storageBucket: "retailproject-6f4fc.appspot.com",
+    messagingSenderId: "653667385625",
+    appId: "1:653667385625:web:a5aed08500de80839f0588",
+    measurementId: "G-9SKTRHHSW9"
+  };
+  firebase.initializeApp(firebaseConfig);
+  dbVDOGroup = firebase.firestore().collection("VDOTrainingGroup");
+  dbVDOTraining = firebase.firestore().collection("VDOTraining");
+  ShowVDOmain();
+  ShowVDOgroup();
+  //LoadVDOGroup();
+  //ShowVDOList();
+}
+
+
+function getParameterByName(name, url) {
+  str = '';
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+
+var EidVDOGroup = "";
+var sCountView = 0;
+function ShowVDOmain() {
+  var str = "";
+  var str1 = "";
+  dbVDOGroup
+  .where('VDOmain','==',parseInt(sMain))
+  .where('VDOgroup','==',parseInt(sGroup))
+  .where('VDOdisplay','==',1)
+  .limit(1).get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      EidVDOGroup = doc.id;
+      sCountView = parseInt(doc.data().VDOclick)+1;
+      str +='<div style="margin-top:50px;background-color: #002d63;height: 270px; overflow: hidden;">';
+      str +='<img src="'+doc.data().VDOimg+'" style="width:100%; max-width: 500px;"></div>';
+      //str +='<div style="max-height:300px;"><center>';
+      //str +='<iframe width="100%" height="280" src="'+doc.data().VDOimg+'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      //str +='</center></div>';
+      $("#NameVDO").html('<div class="boxvdo-header">'+doc.data().VDOname+'</div>');
+      $("#DetailVDO").html('<div class="boxvdo-line1" style="padding-top:10px;height:auto;">'+doc.data().VDOdetail+'</div>');
+      $("#ImgVDO").html(str);
+
+      str1 += '<div class="boxvdo-line2"><div class="boxvdo-icon1">';
+      str1 += '<img src="./img/video2.png" class="boxvdoimg"> <span>'+doc.data().VDOitem+'</span> Clip</div>';
+      str1 += '<div class="boxvdo-icon"><img src="./img/reading.png" class="boxvdoimg"> <span>'+ sCountView +' อ่าน</span></div>';
+      str1 += '</div></div>';
+      $("#SocialICON").html(str1);
+      SaveCountVDOGroup();
+    });
+    //alert(i);
+    //$("#DisplayVDOmain").html(str);
+  });
+}
+
+
+function SaveCountVDOGroup() {
+  if(EidVDOGroup!="") {
+    dbVDOGroup.doc(EidVDOGroup).update({
+      VDOclick : parseInt(sCountView) 
+    });    
+  }
+}
+
+function ShowVDOgroup() {
+  var i = 0;
+  var sPhoto = "";
+  //alert(sMain+"===="+sGroup);
+  dbVDOTraining.where('VDOmain','==',parseInt(sMain))
+  .where('VDOgroup','==',parseInt(sGroup))
+  .where('VDOstatus','==',0)
+  .orderBy('VDOrank','desc')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = i+1;
+
+/*
+      str += '<div class="col-lg-6 col-md-4 slide text-center boxvdo" data-aos="fade-left" style="width:50%;float: left;">';
+      str += '<div class="vdo-group member" style="text-align: left; padding:6px;width:98%;">';
+      str += '<div style="width:100%;"><img src="'+doc.data().VDOimg+'" style="width:100%;border-radius: 5px;overflow:hidden;"/>';
+      str += '<div class="vdo-overimg"><div style="color:#fff;opacity:1;font-size:9px;" id="NewCount-'+i+'">'+doc.data().VDOitem+' Clip | '+doc.data().VDOclick+' View</div></div></div>';
+      str += '<div class="vdo-header">'+doc.data().VDOname+'</div><div class="vdo-body">';
+      str += '<div style="font-size:11px; height:58px; overflow: hidden;">'+doc.data().VDOdetail+'</div>';
+      str += '<div class="btn-t4" onclick="GotoVDOgroup(\''+ doc.id +'\',\''+ doc.data().VDOgroup +'\','+i+'\,'+doc.data().VDOitem+')">ดูรายละเอียด</div></div></div></div>';
+
+
+
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" onclick="OpenVdo(\''+ doc.id +'\','+i+')">';
+      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().VDOimg+'" class="img-fluid" style="border-radius: 10px;">';
+      str += '<div class="vdo-timer"><img src="./img/timer.png" width="15px"> '+doc.data().VDOtimer+'</div></div>';
+      str += '<div class="vdo-header">'+doc.data().VDOname+'</div><div class="vdo-body">';
+      str += '<div class="boxvdo-line1">'+doc.data().VDOdetail+'</div>';
+      //str += '<div style="font-size:11px; height:58px; overflow: hidden;">'+doc.data().VDOdetail+'</div>';
+      str += '<img src="./img/calendar.png" class="boxvdoimg"> <span>'+doc.data().VDOdate+'</span></div>';
+      str += '<div class="boxvdo-icon"><img src="./img/reading.png" class="boxvdoimg"> <span id="ReadView-'+i+'">'+doc.data().VDOread+' อ่าน</span></div>';
+*/
+
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" onclick="OpenVdo(\''+ doc.id +'\','+i+')">';
+      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().VDOimg+'" class="img-fluid" style="border-radius: 10px;">';
+      str += '<div class="vdo-timer"><img src="./img/timer.png" width="15px"> '+doc.data().VDOtimer+'</div></div>';
+      str += '<div class="boxvdo-title"><div class="boxvdo-header">'+doc.data().VDOname+'</div>';
+      str += '<div class="boxvdo-line1">'+doc.data().VDOdetail+'</div>';
+      str += '<div class="boxvdo-line2"><div class="boxvdo-icon1">';
+      str += '<img src="./img/calendar.png" class="boxvdoimg"> <span>'+doc.data().VDOdate+'</span></div>';
+      str += '<div class="boxvdo-icon"><img src="./img/reading.png" class="boxvdoimg"> <span id="ReadView-'+i+'">'+doc.data().VDOread+' อ่าน</span></div>';
+
+      if(doc.data().VDOquiz==1) {
+        str += '<div class="boxvdo-icon"><img src="./img/quizgame.png" class="boxvdoimg"> <span>เก็บคะแนน</span></div>';
+      }
+      if(doc.data().ShowQuestion==1) {
+        str += '<div class="boxvdo-icon"><img src="./img/ask.png" class="boxvdoimg"> <span>'+doc.data().QuestionSend+' คำถาม</span></div>';
+      }
+      str += '</div></div></div></div>';
+    });
+    $("#DisplayVDOgroup").html(str);
+  });
+}
+
+
+function ShowVDOList() {
+  var i = 0;
+  var str = "";
+  dbVDOTraining.where('VDOmain','==',sVDOmain)
+  .where('VDOstatus','==',0)
+  .orderBy('VDOtimestamp','desc')
+  .limit(10).get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      i = i+1;
+      str += '<div class="col-lg-6 col-md-2 slide text-center boxvdo" data-aos="fade-left" onclick="OpenVdo(\''+ doc.id +'\','+i+')">';
+      str += '<div class="boxvdo-border member"><div class="boxvdo-img">';
+      str += '<img src="'+doc.data().VDOimg+'" class="img-fluid" style="border-radius: 10px;">';
+      str += '<div class="vdo-timer"><img src="./img/timer.png" width="15px"> '+doc.data().VDOtimer+'</div></div>';
+      str += '<div class="boxvdo-line1">'+doc.data().VDOdetail+'</div>';
+      str += '<div class="boxvdo-line2"><div class="boxvdo-icon1">';
+      str += '<img src="./img/calendar.png" class="boxvdoimg"> <span>'+doc.data().VDOdate+'</span></div>';
+      str += '<div class="boxvdo-icon"><img src="./img/reading.png" class="boxvdoimg"> <span id="ReadView-'+i+'">'+doc.data().VDOread+' อ่าน</span></div>';
+      if(doc.data().VDOquiz==1) {
+        str += '<div class="boxvdo-icon"><img src="./img/quizgame.png" class="boxvdoimg"> <span>เก็บคะแนน</span></div>';
+      }
+      if(doc.data().ShowQuestion==1) {
+        str += '<div class="boxvdo-icon"><img src="./img/ask.png" class="boxvdoimg"> <span>'+doc.data().QuestionSend+' คำถาม</span></div>';
+      }
+      str += '</div></div></div></div>';
+    });
+  $("#DisplayVDOlist").html(str);
+  });
+}
+
+
+function GotoVDOGroup(id,x,i,clip) {
+  var sCountView = 0;
+  dbVDOGroup.where(firebase.firestore.FieldPath.documentId(), "==", id)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      sCountView = parseInt(doc.data().VDOclick)+1;
+      alert(sCountView);
+      dbVDOGroup.doc(id).update({
+        VDOclick : parseInt(sCountView) 
+      });
+    });
+    location.href = "learning-group.html?gid="+x+"";
+  });
+
+  //alert(id+"==="+x);
+  //if(x==1) {
+    //location.href = "learning-group.html?gid="+x+"";
+  //} else if(x==2) {
+  //  location.href = "training-group.html?gid="+x+"";
+  //}
+}
+
+
+function OpenVdo(x,r) {
+  location.href = "displayvdo.html?gid="+x+"";
+}
+
+
+function CloseAll() {
+	document.getElementById('id01').style.display='none';
+}
+
+
+
